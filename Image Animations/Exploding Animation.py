@@ -36,7 +36,7 @@ class Pixel:
         global pixels
 
         self.ground = False
-        # (here I wass toying around a bit)
+        # (here I was toying around a bit)
         # for p in pixels:
         #     if p == self:
         #         continue
