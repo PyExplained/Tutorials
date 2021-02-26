@@ -15,7 +15,7 @@ canvas = Canvas(tk, width=win_width, height=win_height)
 canvas.pack()
 
 # Insert file path below
-img = cv2.imread(r'C:\Users\manud\OneDrive\Bureaublad\test_img.jpg')
+img = cv2.imread(r'insert_path')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 width = len(img[0])
 height = len(img)
